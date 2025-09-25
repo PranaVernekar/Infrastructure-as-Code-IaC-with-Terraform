@@ -68,6 +68,9 @@ Inspect the current state of your infrastructure:
 ```bash
 terraform state list
 ```
+```bash
+terraform state show docker_container.app_container
+```
 
 ### 8. **Destroy Infrastructure**
 
